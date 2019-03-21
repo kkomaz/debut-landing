@@ -1,0 +1,110 @@
+/* -----------------------------
+Video area style
+-------------------------------- */
+.video-image {
+  display: block;
+  position: relative;
+  img {
+    width: 100%;
+    border-radius: 10px;
+  }
+}
+
+.video-play-icon {
+  font-size: 34px;
+  text-align: center;
+  @include wpsuperGradient($themeColorOrange, $themeColorYellow);
+  border-radius: 100%;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  i {
+    color: $white;
+    left: 5px;
+    position: relative;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    box-sizing: content-box;
+    height: 100%;
+    pointer-events: none;
+    width: 100%;
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    animation: sonarEffect 1.5s linear 2s infinite running;
+    box-shadow: 0 0 0 2px $themeColorOrange;
+    left: 0;
+    opacity: 0;
+    padding: 0;
+    top: 0;
+    transform: scale(0.9);
+    z-index: -1;
+  }
+}
+
+@keyframes sonarEffect {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.5;
+    box-shadow: 0 0 0 2px $white, 0 0 5px 5px transparent, 0 0 0 5px $white;
+  }
+  100% {
+    box-shadow: 0 0 0 2px $white, 0 0 5px 5px transparent, 0 0 0 5px $white;
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+.video-content {
+  margin-left: 20px;
+  .video-subtitle {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+  .video-title {
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    line-height: 1;
+  }
+  .description {
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+.download-img-btn {
+  img {
+    width: 160px;
+  }
+  li {
+    + li {
+      margin-left: 20px;
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .video-content {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+}

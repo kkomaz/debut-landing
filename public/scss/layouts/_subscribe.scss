@@ -1,0 +1,74 @@
+.subscribe-header {
+  margin-bottom: 50px;
+  h2 {
+    color: $white;
+    font-size: 30px;
+    letter-spacing: 0;
+    margin-bottom: 5px;
+  }
+  p {
+    color: $white;
+    font-size: 15px;
+  }
+}
+
+.subscribe-form {
+  width: 600px;
+  margin: auto;
+  position: relative;
+  margin-bottom: 20px;
+  display: flex;
+  input {
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.1);
+    width: 100%;
+    left: 0;
+    height: 50px;
+    padding: 0 20px;
+    border-radius: 100px;
+    border: none;
+    text-transform: lowercase;
+  }
+  *::placeholder {
+    text-transform: lowercase !important;
+    font-size: 16px !important;
+  }
+  .btn {
+    border-radius: 0 100px 100px 0;
+    position: absolute;
+    height: 50px;
+    right: 0;
+    &::before {
+      border-radius: 0 100px 100px 0;
+    }
+  }
+}
+
+.social-bookmark {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  li {
+    margin: 0 30px 0 0;
+  }
+  a {
+    font-size: 20px;
+  }
+  &.list-center {
+    justify-content: center;
+    margin: 0 15px;
+  }
+  &.list-white {
+    a {
+      i {
+        color: $white;
+        &:hover {
+          color: $themeColorOrange;
+        }
+      }
+    }
+  }
+}
+
+.subscribe-content {
+  color: $white;
+}

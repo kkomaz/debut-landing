@@ -1,0 +1,25 @@
+// Counter
+.single-counter {
+  text-align: center;
+  color: $white;
+  .counter-icon {
+    margin-bottom: 30px;
+    i {
+      font-size: 40px;
+    }
+  }
+  .counter {
+    font-size: 36px;
+    font-family: $poppins;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+  }
+  .counter-title {
+    color: $white;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+  }
+}

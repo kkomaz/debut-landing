@@ -1,0 +1,75 @@
+/* -----------------------------
+10. Interface area style
+-------------------------------- */
+
+.interface-slider .swiper-slide {
+  width: 300px;
+  height: auto;
+  padding: 0 15px;
+  img {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  .xboo__overlay {
+    &::before {
+      opacity: 0;
+    }
+  }
+  &.swiper-slide-active:hover {
+    .xboo__overlay {
+      &::before {
+        opacity: .9;
+      }
+    }
+  }
+}
+
+.interface-icon {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 70px;
+  color: $white;
+  font-size: 30px;
+  text-align: center;
+  height: 70px;
+  width: 70px;
+  line-height: 70px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin: 0 auto;
+  right: 0;
+  transition: all 0.3s ease-in 0s;
+  transition-delay: .3s;
+  transform: translateY(-30%);
+  opacity: 0;
+  &:hover {
+    color: $white;
+  }
+}
+
+.swiper-slide-active .xboo__overlay:hover .interface-icon {
+  opacity: 1;
+  transform: translateY(-50%);
+}
+
+.swiper-container-horizontal {
+  .swiper-pagination-bullets {
+    margin-top: 30px;
+    position: relative;
+    bottom: 0;
+  }
+}
+
+.swiper-pagination-bullet {
+  background: transparent none repeat scroll 0 0;
+  border: 2px solid $themeColorOrange;
+  height: 12px;
+  opacity: .7;
+  width: 12px;
+  border-radius: 100%;
+  &.swiper-pagination-bullet-active {
+    border: none;
+    @include wpsuperGradient($themeColorOrange, $themeColorYellow);
+    opacity: 1
+  }
+}

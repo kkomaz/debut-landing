@@ -1,0 +1,35 @@
+/* -----------------------------
+13. Technology area style
+-------------------------------- */
+.call-to-action-section {
+  padding: 120px 0 160px;
+  background: url(../images/bg/3.png) no-repeat 85% center;
+  background-size: 45%;
+}
+
+.call-to-action {
+  h2 {
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-size: 32px;
+    font-weight: 600;
+  }
+  p {
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+
+}
+
+[class*="gradient-"] {
+  .call-to-action {
+    h2 {
+      color: $white;
+    }
+    p {
+      color: $white;
+    }
+  }
+
+}
+

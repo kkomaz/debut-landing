@@ -1,0 +1,186 @@
+.btn {
+  background: transparent;
+  border-radius: 100px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+  font-family: $poppins;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-out 0s;
+  padding: 0 30px;
+  height: 45px;
+  line-height: 44px;
+  letter-spacing: 1px;
+  position: relative;
+  z-index: 1;
+  &:focus,
+  &:active {
+    outline: none;
+    box-shadow: none;
+  }
+  &.btn-orange {
+    background: $themeColorOrange;
+    color: $white;
+    &:hover {
+      background: $themeColorBlue;
+    }
+  }
+  &.btn-blue {
+    background: $themeColorBlue;
+    color: $white;
+    &:hover {
+      background: $themeColorOrange;
+    }
+  }
+  &.btn-white {
+    background: $white;
+    color: $bodyTextColor;
+    &:hover {
+      background: $themeColorBlue;
+      color: $white;
+    }
+  }
+  &.btn-gradient {
+    background: transparent;
+    border: 2px solid $borderColor;
+    &::before {
+      content: '';
+      position: absolute;
+      border-radius: 100px;
+      left: -2px;
+      top: -2px;
+      width: calc(100% + 4px);
+      height: calc(100% + 4px);
+      @include wpsuperGradient($themeColorYellow, $themeColorOrange);
+      z-index: -1;
+      opacity: 0;
+    }
+    &:hover {
+      border: 2px solid transparent;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      color: $white;
+      &::before {
+        opacity: 1;
+      }
+    }
+    &.btn-gradient-reverse {
+      border: none;
+      @include wpsuperGradient($themeColorOrange, $themeColorYellow);
+      color: $white;
+      &::before {
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+      }
+      &:hover {
+        &::before {
+          opacity: 1;
+        }
+      }
+    }
+    &.btn-active {
+      color: $white;
+      &::before {
+        opacity: 1;
+      }
+      &:hover {
+        color: $bodyTextColor;
+        border: 2px solid $borderColor;
+        &::before {
+          opacity: 0;
+        }
+      }
+    }
+  }
+  i {
+    font-size: 18px;
+    position: relative;
+    top: 1px;
+    margin-left: 5px;
+    &.fa-play {
+      top: 2px;
+      margin-right: 5px;
+      margin-left: 0;
+    }
+  }
+  // Download button
+  &.btn-download {
+    border: 2px solid #eee;
+    width: 200px;
+    height: 65px;
+    border-radius: 5px;
+    &::before {
+      border-radius: 5px;
+    }
+    img {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      &:first-child {
+        opacity: 1;
+      }
+      &:last-child {
+        opacity: 0;
+      }
+    }
+    &:hover {
+      img {
+        &:first-child {
+          opacity: 0;
+        }
+        &:last-child {
+          opacity: 1;
+        }
+      }
+    }
+    + .btn-download {
+      margin-left: 10px;
+    }
+    &.btn-active {
+      img {
+        &:first-child {
+          opacity: 0;
+        }
+        &:last-child {
+          opacity: 1;
+        }
+      }
+      &:hover {
+        img {
+          &:first-child {
+            opacity: 1;
+          }
+          &:last-child {
+            opacity: 0;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+// Button Link
+.button-link {
+  font-family: $poppins;
+  font-size: 14px;
+  font-weight: 400;
+  background: transparent none repeat scroll 0 0;
+  color: $themeColorOrange;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  &:hover {
+    color: $themeColorBlue;
+  }
+  i {
+    font-size: 18px;
+    line-height: 1;
+    margin-left: 10px;
+  }
+}

@@ -1,0 +1,55 @@
+// All variables
+
+// Font Family
+$openSans: 'Open Sans', sans-serif;
+$poppins: 'Poppins', sans-serif;
+
+// Theme Color
+$themeColorOrange: #F86754;
+$themeColorYellow: #fabe61;
+
+$themeColorBlue: #5225f8;
+$themeColorPurpol: #AB46F8;
+
+// Solid black and white
+$white: #ffffff;
+$black: #000000;
+
+// Base color heading & body
+$headingColor: #404040;
+$bodyTextColor: #7b7d80;
+
+// Dark colors
+$darkGray: #2e2e2e;
+
+// Light colors
+$lightGray: #f4f4f4;
+$sectionGray: #f8f8f8;
+$borderColor: #e5e5e5;
+$lightText: #c7c7c7;
+
+// Icons color
+$iconGreen: #5f89f4;
+$iconMint: #9bb916;
+$iconPurpole: #a773ea;
+
+// Branding colors
+$facebookColor: #3b5998;
+$twitterColor: #1da1f2;
+$instragramColor: #e1306c;
+$googlePlusColor: #dd4b39;
+$linkedinColor: #0077b5;
+$skypeColor: #00aff0;
+$dribbbleColor: #ea4c89;
+$youtubeColor: #ff0000;
+$starColor: #f2b01e;
+$pinterestColor: #bd081c;
+
+// Grid width classification
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px
+) !default;

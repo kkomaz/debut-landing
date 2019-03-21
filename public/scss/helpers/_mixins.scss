@@ -1,0 +1,9 @@
+@mixin wpsuperGradient($from, $to, $stop: 100%) {
+  background-color: $from;
+  background-image: -moz-linear-gradient(45deg, $from 0%, $to $stop);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, $from), color-stop($stop, $to));
+  background-image: -webkit-linear-gradient(45deg, $from 0%, $to $stop);
+  background-image: -o-linear-gradient(45deg, $from 0%, $to $stop);
+  background: -ms-linear-gradient(45deg, $from 0%, $to $stop);
+  background: linear-gradient(45deg, $from 0%, $to $stop);
+}

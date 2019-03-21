@@ -1,0 +1,22 @@
+.breadcrumb-section {
+  padding: 200px 0 100px 0;
+}
+
+.breadcrumb-content {
+  text-align: center;
+}
+
+.breadcrumb-item a {
+  color: $white;
+  &:hover {
+    color: $themeColorOrange;
+  }
+}
+
+.breadcrumb-item.active {
+  color: $themeColorOrange;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: $white;
+}

@@ -1,0 +1,92 @@
+/* -----------------------------
+12. Price plan area style
+-------------------------------- */
+.offer-content {
+  margin-top: 30px;
+  p {
+    margin-bottom: 15px;
+  }
+  .btn-active {
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.single-pricing-table {
+  padding: 50px 15px;
+  box-shadow: 10px 17.3px 40px rgba(99, 117, 138, 0.15);
+  width: 50%;
+  float: left;
+  overflow: hidden;
+  border-radius: 12px;
+  text-align: center;
+  &:nth-child(1) {
+    background: $white;
+    position: relative;
+    z-index: 2;
+  }
+  &:nth-child(2) {
+    background: #f2f2ff;
+    transform: translateX(-15px);
+    box-shadow: none;
+    padding: 50px 15px;
+    margin-top: 40px;
+  }
+}
+
+.pricing-head {
+  .pricing-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+  }
+  p {
+    @include wpsuperGradient($themeColorPurpol, $themeColorBlue);
+    display: inline-block;
+    color: $white;
+    height: 28px;
+    line-height: 27px;
+    margin: auto auto 30px;
+    padding: 0 20px;
+    border-radius: 28px;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+}
+
+.pricing-body {
+  p {
+    display: block;
+    max-width: 60%;
+    margin: auto auto 30px;
+    padding-bottom: 35px;
+    font-size: 16px;
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      width: 70px;
+      height: 1px;
+      background-color: #bcc6d0;
+    }
+  }
+}
+
+.pricing-list {
+  margin-bottom: 60px;
+  li + li {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  li i {
+    color: $themeColorBlue;
+    padding-right: 8px;
+  }
+}
+
+

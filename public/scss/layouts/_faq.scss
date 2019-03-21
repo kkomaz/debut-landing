@@ -1,0 +1,91 @@
+/* -----------------------------
+16. FAQ area style
+-------------------------------- */
+.panel-group {
+  margin: 0;
+  .panel {
+    background: $white;
+    border-radius: 3px;
+    position: relative;
+    border: 1px solid #eee;
+    box-shadow: 0 5px 10px rgba($color: #000000, $alpha: .09);
+    &:last-child .panel-heading {
+      border-bottom: 1px solid transparent;
+    }
+    .panel-heading {
+      margin: 0;
+      padding: 20px;
+    }
+    + .panel {
+      margin-top: 10px;
+    }
+  }
+  .panel-body {
+    padding: 0 20px 30px 20px;
+  }
+}
+
+.faq-light .panel-heading {
+  background: #fff;
+}
+
+.panel-title {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  a {
+    color: inherit;
+    display: flex;
+    align-items: center;
+    position: relative;
+    &:before {
+      position: absolute;
+      content: "-";
+      right: 0;
+      top: auto;
+    }
+    color: $themeColorPurpol;
+    &.collapsed {
+      color: $headingColor;
+      &::before {
+        content: "+";
+      }
+    }
+    &:hover {
+      color: $themeColorPurpol;
+    }
+  }
+  i {
+    font-size: 24px;
+    padding-right: 15px;
+  }
+  p {
+    font-weight: 400;
+    margin: 0;
+
+  }
+}
+
+.panel {
+  &:nth-child(1) {
+    i {
+      color: $iconGreen;
+    }
+  }
+  &:nth-child(2) {
+    i {
+      color: $iconMint;
+    }
+  }
+  &:nth-child(3) {
+    i {
+      color: $iconPurpole;
+    }
+  }
+  &:nth-child(4) {
+    i {
+      color: $themeColorOrange;
+    }
+  }
+}

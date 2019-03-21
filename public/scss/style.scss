@@ -1,0 +1,115 @@
+/* ----------------------------------------------------
+Template Name: Gxap
+Author: wpSuper
+URL: http://oazad.com/templates/gxap-preview/
+Version: 1.0;
+------------------------------------------------------- */
+/*  -------------------------------
+CSS Table of Content
+
+  01. Base style
+  02. Typography style
+  03. Button style
+  04. Header style
+  05. Slider style
+  06. Feature style
+  07. Interface slider style
+  08. Team section style
+  09. FAQ section style
+  10. Pricing section style
+  11. Counter section style
+  12. Call to action style
+  13. Testimonial style
+  14. Blog section style
+  15. Subscribe section style
+  16. Breadcrumb section style
+  17. Contact section style
+  18. footer section style
+  19. Video section style
+  20. Responsive style
+
+ ---------------------------------- */
+@import 'helpers/variables';
+@import 'helpers/mixins';
+@import 'helpers/breakpoints';
+/* --------------------------
+  01. Base style
+----------------------------- */
+@import 'base/base';
+/* --------------------------
+  02. Typography style
+----------------------------- */
+@import 'base/typography';
+/* --------------------------
+  03. Button style
+----------------------------- */
+@import 'components/buttons';
+/* --------------------------
+  04. Header style
+----------------------------- */
+@import 'layouts/header';
+/* --------------------------
+  05. Slider style
+----------------------------- */
+@import 'layouts/slider';
+/* --------------------------
+  06. Feature style
+----------------------------- */
+@import 'layouts/feature';
+/* --------------------------
+  07. Interface slider style
+----------------------------- */
+@import 'layouts/interface';
+/* --------------------------
+  08. Team section style
+----------------------------- */
+@import 'layouts/team';
+/* --------------------------
+  09. FAQ section style
+----------------------------- */
+@import 'layouts/faq';
+/* --------------------------
+  10. Pricing section style
+----------------------------- */
+@import 'layouts/pricing';
+/* --------------------------
+  11. Counter section style
+----------------------------- */
+@import 'layouts/counter';
+/* --------------------------
+  12. Call to action style
+----------------------------- */
+@import 'layouts/action';
+/* --------------------------
+  13. Testimonial style
+----------------------------- */
+@import 'layouts/testimonial';
+/* --------------------------
+  14. Blog section style
+----------------------------- */
+@import 'layouts/blog';
+/* --------------------------
+  15. Subscribe section style
+----------------------------- */
+@import 'layouts/subscribe';
+/* --------------------------
+  16. Breadcrumb section style
+----------------------------- */
+@import 'layouts/breadcrumb';
+/* --------------------------
+  17. Contact section style
+----------------------------- */
+@import 'layouts/contact';
+/* --------------------------
+  18. footer section style
+----------------------------- */
+@import 'layouts/footer';
+/* --------------------------
+  19. Video section style
+----------------------------- */
+@import 'layouts/video';
+/* --------------------------
+  20. Responsive style
+----------------------------- */
+@import 'layouts/responsive';
+
