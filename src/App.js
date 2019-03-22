@@ -367,7 +367,7 @@ class App extends Component {
                                   </div>
                                   <div className="info-details">
                                       <h4>Email</h4>
-                                      <a href="mailto:debutapp@gmail.com">debutapp@gmail.com</a>
+                                      <a href="mailto:thedebutapp@gmail.com">thedebutapp@gmail.com</a>
                                   </div>
                               </div>
                           </div>
