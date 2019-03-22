@@ -7,3 +7,15 @@
   display: flex;
   justify-content: center;
 }
+
+.profile-container img {
+  height: 500px;
+  width: 800px;
+}
+
+@media only screen and (max-width: 600px) {
+  .profile-container img {
+    height: 200px;
+    width: 300px;
+  }
+}

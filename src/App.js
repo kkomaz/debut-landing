@@ -248,7 +248,7 @@ class App extends Component {
                               <div className="interface-slide wow fadeInDown" data-wow-delay=".2s">
                                   <div className="swiper-container interface-slider">
                                       <div className="swiper-wrapper profile-container">
-                                        <img src={profile} alt="" style={{ height: '500px', width: '800px'}} />
+                                        <img src={profile} alt="" />
                                       </div>
                                   </div>
                               </div>
@@ -271,7 +271,7 @@ class App extends Component {
                       <div className="row">
                           <div className="col-lg-6 d-none d-sm-block d-md-none d-lg-block">
                               <div className="faq-image text-center wow fadeIn" data-wow-delay=".2s">
-                                  <img src={collab} alt="" style={{ width: '470px', height: '650px'}} />
+                                  <img src={collab} alt="" style={{ width: '470px', height: '450px'}} />
                               </div>
                           </div>
                           <div className="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
