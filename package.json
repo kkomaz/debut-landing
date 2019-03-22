@@ -1,8 +1,10 @@
 {
   "name": "debut-landing",
   "version": "0.1.0",
+  "homepage": "https://landing.debutapp.social",
   "private": true,
   "dependencies": {
+    "classnames": "^2.2.6",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8"
