@@ -1,5 +1,7 @@
 /* eslint-disable */
 import React, { Component } from 'react';
+import icon from './assets/debut-app-icon.svg'
+import debutInfo from './assets/debut_info.png'
 import './App.css';
 
 class App extends Component {
@@ -20,9 +22,20 @@ class App extends Component {
           <header className="sticky-header header-area transparent-header">
               <div className="container">
                   <nav className="navbar navbar-expand-md">
-                      <a className="navbar-brand" href="index.html">
-                          gxap<i className="fa fa-play"></i>
-                      </a>
+                      <p
+                        className="navbar-brand"
+                        href="index.html"
+                        style={{
+                          textTransform: 'lowercase',
+                          marginBottom: '0',
+                          marginRight: '10px'
+                        }}
+                      >
+                          debut
+                      </p>
+
+                      <img src={icon} alt="svg" style={{ width: '50px', height: '50px' }}/>
+
                       <div className="navbar-toggler hamburger hamburger--collapse" data-toggle="collapse"
                            data-target="#navbar-main">
                           <div className="hamburger-box">
@@ -78,45 +91,28 @@ class App extends Component {
                                   <div className="slide-content-wrapper">
                                       <div className="slide-content text-left">
                                           <h3 className="slide-subtitle" data-animation="fadeIn" data-delay="300ms">Welcome
-                                              to</h3>
-                                          <h2 className="slide-title" data-animation="fadeIn" data-delay="500ms">New generation
-                                              crypto currency wallet</h2>
-                                          <p className="slide-description" data-animation="fadeIn" data-delay="700ms">There are
-                                              many variations of passages of Lorem Ipsum available, <br /> but the majority have
-                                              suffered alteration.</p>
+                                              to a
+                                          </h3>
+                                          <h2 className="slide-title" data-animation="fadeIn" data-delay="500ms">
+                                            New era of social networking
+                                          </h2>
+                                          <p className="slide-description" data-animation="fadeIn" data-delay="700ms">
+                                            Freely share information amongst friends and family without compromise.  Only YOU as the user have access to your data.
+                                          </p>
                                           <a href="#" className="btn btn-gradient btn-active" data-animation="fadeInLeft"
                                              data-delay="900ms">purchase Now</a>
                                           <a href="#" className="btn btn-gradient" data-animation="fadeIn" data-delay="1110ms"><i
                                                   className="fa fa-play"></i> Watch Video</a>
                                       </div>
                                       <div className="slide-thumbnail-image" data-animation="fadeInUp" data-delay="300ms">
-                                          <img src="images/slider/1-1.png" alt="" />
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div className="wpsuper-single-slide">
-                      <div className="container">
-                          <div className="row">
-                              <div className="col-sm-12">
-                                  <div className="slide-content-wrapper">
-                                      <div className="slide-content text-left">
-                                          <h3 className="slide-subtitle" data-animation="fadeIn" data-delay="300ms">Welcome
-                                              to</h3>
-                                          <h2 className="slide-title" data-animation="fadeIn" data-delay="500ms">Best mobile app
-                                              landing page of 2019</h2>
-                                          <p className="slide-description" data-animation="fadeIn" data-delay="700ms">Lorem ipsum
-                                              dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor anagi icdunt
-                                              ut labore et dolore magna aliqua.</p>
-                                          <a href="#" className="btn btn-gradient btn-active" data-animation="fadeInLeft"
-                                             data-delay="900ms">purchase Now</a>
-                                          <a href="#" className="btn btn-gradient" data-animation="fadeIn" data-delay="1110ms"><i
-                                                  className="fa fa-play"></i> Watch Video</a>
-                                      </div>
-                                      <div className="slide-thumbnail-image" data-animation="fadeInUp" data-delay="800ms">
-                                          <img src="images/slider/2.png" alt="" />
+                                          <img
+                                            src={debutInfo}
+                                            alt="debut-info"
+                                            style={{
+                                              maxWidth: '800px',
+                                              maxHeight: '635px'
+                                            }}
+                                          />
                                       </div>
                                   </div>
                               </div>
@@ -135,7 +131,7 @@ class App extends Component {
                                       <img src="images/services/1-1.png" alt="" />
                                   </div>
                                   <div className="service-content">
-                                      <h5>Online Payment</h5>
+                                      <h5>Identity Ownership</h5>
                                       <p>Lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do eiusmod teporara
                                           incididunt ugt labore.</p>
                                       <a href="#" className="button-link">Read More <i className="fa fa-angle-right"></i></a>
@@ -148,7 +144,7 @@ class App extends Component {
                                       <img src="images/services/3-3.png" alt="" />
                                   </div>
                                   <div className="service-content">
-                                      <h5>100% Secure</h5>
+                                      <h5>No Tracking</h5>
                                       <p>Lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do eiusmod teporara
                                           incididunt ugt labore.</p>
                                       <a href="#" className="button-link">Read More <i className="fa fa-angle-right"></i></a>
@@ -161,7 +157,7 @@ class App extends Component {
                                       <img src="images/services/2-2.png" alt="" />
                                   </div>
                                   <div className="service-content">
-                                      <h5>Unlimited Withdraw</h5>
+                                      <h5>Share publicly or <span style={{ color: '#EA1D64' }}>privately*</span><span style={{ color: '#EA1D64', fontSize: '12px' }}> *in development</span></h5>
                                       <p>Lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do eiusmod teporara
                                           incididunt ugt labore.</p>
                                       <a href="#" className="button-link">Read More <i className="fa fa-angle-right"></i></a>

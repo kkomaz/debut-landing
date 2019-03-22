@@ -91,14 +91,14 @@ ul {
 
 .gradient-blue {
   background-color: #401457;
-  background-image: -moz-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #401457), color-stop(100%, #518DCA));
-  background-image: -webkit-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background-image: -o-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background: -ms-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background: -webkit-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background: -o-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background: linear-gradient(45deg, #401457 0%, #518DCA 100%); }
+  background-image: -moz-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #401457), color-stop(100%, #5a5791));
+  background-image: -webkit-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background-image: -o-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background: -ms-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background: -webkit-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background: -o-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background: linear-gradient(45deg, #401457 0%, #5a5791 100%); }
 
 .gradient-orange {
   background-color: #F86754;
@@ -125,14 +125,14 @@ ul {
     content: "";
     position: absolute;
     background-color: #401457;
-    background-image: -moz-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #401457), color-stop(100%, #518DCA));
-    background-image: -webkit-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-    background-image: -o-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-    background: -ms-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-    background: -webkit-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-    background: -o-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-    background: linear-gradient(45deg, #401457 0%, #518DCA 100%);
+    background-image: -moz-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #401457), color-stop(100%, #5a5791));
+    background-image: -webkit-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+    background-image: -o-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+    background: -ms-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+    background: -webkit-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+    background: -o-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+    background: linear-gradient(45deg, #401457 0%, #5a5791 100%);
     left: 0;
     top: 0;
     right: 0;
@@ -200,14 +200,14 @@ Area heading style
   letter-spacing: 0; }
   .area-title::before {
     background-color: #401457;
-    background-image: -moz-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #401457), color-stop(100%, #518DCA));
-    background-image: -webkit-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-    background-image: -o-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-    background: -ms-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-    background: -webkit-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-    background: -o-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-    background: linear-gradient(45deg, #401457 0%, #518DCA 100%);
+    background-image: -moz-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #401457), color-stop(100%, #5a5791));
+    background-image: -webkit-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+    background-image: -o-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+    background: -ms-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+    background: -webkit-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+    background: -o-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+    background: linear-gradient(45deg, #401457 0%, #5a5791 100%);
     content: "";
     position: absolute;
     bottom: 0;
@@ -576,14 +576,14 @@ Area heading style
   position: relative; }
   .gradient-op-overlay::before {
     background-color: #401457;
-    background-image: -moz-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #401457), color-stop(100%, #518DCA));
-    background-image: -webkit-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-    background-image: -o-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-    background: -ms-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-    background: -webkit-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-    background: -o-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-    background: linear-gradient(45deg, #401457 0%, #518DCA 100%);
+    background-image: -moz-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #401457), color-stop(100%, #5a5791));
+    background-image: -webkit-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+    background-image: -o-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+    background: -ms-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+    background: -webkit-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+    background: -o-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+    background: linear-gradient(45deg, #401457 0%, #5a5791 100%);
     content: "";
     position: absolute;
     left: 0;
@@ -630,14 +630,14 @@ Area heading style
 
 #wpsuper-loader {
   background-color: #401457;
-  background-image: -moz-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #401457), color-stop(100%, #518DCA));
-  background-image: -webkit-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background-image: -o-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background: -ms-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background: -webkit-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background: -o-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background: linear-gradient(45deg, #401457 0%, #518DCA 100%);
+  background-image: -moz-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #401457), color-stop(100%, #5a5791));
+  background-image: -webkit-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background-image: -o-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background: -ms-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background: -webkit-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background: -o-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background: linear-gradient(45deg, #401457 0%, #5a5791 100%);
   height: 100%;
   width: 100%;
   position: fixed;
@@ -773,9 +773,9 @@ h6 {
     background: #F86754;
     color: #ffffff; }
     .btn.btn-orange:hover {
-      background: #518DCA; }
+      background: #5a5791; }
   .btn.btn-blue {
-    background: #518DCA;
+    background: #5a5791;
     color: #ffffff; }
     .btn.btn-blue:hover {
       background: #F86754; }
@@ -783,7 +783,7 @@ h6 {
     background: #ffffff;
     color: #7b7d80; }
     .btn.btn-white:hover {
-      background: #518DCA;
+      background: #5a5791;
       color: #ffffff; }
   .btn.btn-gradient {
     background: transparent;
@@ -903,7 +903,7 @@ h6 {
   justify-content: center;
   line-height: 1; }
   .button-link:hover {
-    color: #518DCA; }
+    color: #5a5791; }
   .button-link i {
     font-size: 18px;
     line-height: 1;
@@ -1565,14 +1565,14 @@ App features area style
       width: 100%;
       height: 100%;
       background-color: #401457;
-      background-image: -moz-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-      background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #401457), color-stop(100%, #518DCA));
-      background-image: -webkit-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-      background-image: -o-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-      background: -ms-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-      background: -webkit-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-      background: -o-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-      background: linear-gradient(45deg, #401457 0%, #518DCA 100%);
+      background-image: -moz-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+      background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #401457), color-stop(100%, #5a5791));
+      background-image: -webkit-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+      background-image: -o-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+      background: -ms-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+      background: -webkit-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+      background: -o-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+      background: linear-gradient(45deg, #401457 0%, #5a5791 100%);
       -webkit-transform: translateX(-10px) scale(0.95);
       -ms-transform: translateX(-10px) scale(0.95);
       transform: translateX(-10px) scale(0.95);
@@ -1704,14 +1704,14 @@ App features area style
   transition: .3s ease-in-out 0s; }
   .single-team .xboo__overlay:before {
     background-color: #401457;
-    background-image: -moz-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #401457), color-stop(100%, #518DCA));
-    background-image: -webkit-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-    background-image: -o-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-    background: -ms-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-    background: -webkit-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-    background: -o-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-    background: linear-gradient(45deg, #401457 0%, #518DCA 100%); }
+    background-image: -moz-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #401457), color-stop(100%, #5a5791));
+    background-image: -webkit-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+    background-image: -o-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+    background: -ms-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+    background: -webkit-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+    background: -o-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+    background: linear-gradient(45deg, #401457 0%, #5a5791 100%); }
   .single-team:hover {
     -webkit-transform: translateY(-5px);
     -ms-transform: translateY(-5px);
@@ -1770,14 +1770,14 @@ App features area style
 
 .team-content {
   background-color: #401457;
-  background-image: -moz-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #401457), color-stop(100%, #518DCA));
-  background-image: -webkit-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background-image: -o-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background: -ms-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background: -webkit-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background: -o-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background: linear-gradient(45deg, #401457 0%, #518DCA 100%);
+  background-image: -moz-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #401457), color-stop(100%, #5a5791));
+  background-image: -webkit-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background-image: -o-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background: -ms-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background: -webkit-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background: -o-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background: linear-gradient(45deg, #401457 0%, #5a5791 100%);
   border-radius: 0 0 3px 3px;
   position: relative;
   padding: 20px 0; }
@@ -1935,14 +1935,14 @@ App features area style
 
 .pricing-head p {
   background-color: #401457;
-  background-image: -moz-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #401457), color-stop(100%, #518DCA));
-  background-image: -webkit-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background-image: -o-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background: -ms-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background: -webkit-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background: -o-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background: linear-gradient(45deg, #401457 0%, #518DCA 100%);
+  background-image: -moz-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #401457), color-stop(100%, #5a5791));
+  background-image: -webkit-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background-image: -o-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background: -ms-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background: -webkit-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background: -o-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background: linear-gradient(45deg, #401457 0%, #5a5791 100%);
   display: inline-block;
   color: #ffffff;
   height: 28px;
@@ -1978,7 +1978,7 @@ App features area style
     margin-top: 15px;
     font-size: 14px; }
   .pricing-list li i {
-    color: #518DCA;
+    color: #5a5791;
     padding-right: 8px; }
 
 /* --------------------------
@@ -2601,14 +2601,14 @@ Contact area style
 -------------------------------- */
 .single-contact {
   background-color: #401457;
-  background-image: -moz-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #401457), color-stop(100%, #518DCA));
-  background-image: -webkit-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background-image: -o-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background: -ms-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background: -webkit-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background: -o-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background: linear-gradient(45deg, #401457 0%, #518DCA 100%);
+  background-image: -moz-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #401457), color-stop(100%, #5a5791));
+  background-image: -webkit-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background-image: -o-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background: -ms-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background: -webkit-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background: -o-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background: linear-gradient(45deg, #401457 0%, #5a5791 100%);
   text-align: center;
   -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
@@ -2686,14 +2686,14 @@ Contact area style
 
 .form-grad-border {
   background-color: #401457;
-  background-image: -moz-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #401457), color-stop(100%, #518DCA));
-  background-image: -webkit-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background-image: -o-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background: -ms-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background: -webkit-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background: -o-linear-gradient(45deg, #401457 0%, #518DCA 100%);
-  background: linear-gradient(45deg, #401457 0%, #518DCA 100%);
+  background-image: -moz-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #401457), color-stop(100%, #5a5791));
+  background-image: -webkit-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background-image: -o-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background: -ms-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background: -webkit-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background: -o-linear-gradient(45deg, #401457 0%, #5a5791 100%);
+  background: linear-gradient(45deg, #401457 0%, #5a5791 100%);
   bottom: 0;
   content: "";
   height: 1px;
