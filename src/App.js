@@ -114,7 +114,7 @@ class App extends Component {
                                   <div className="service-content">
                                       <h5>Identity Ownership</h5>
                                       <p>
-                                        Powered by Blockstack, you retain owernship of your identity and data.  The goal is to give control to the user, not the application.
+                                        Powered by Blockstack, you retain ownership of your identity and data.  The goal is to give control to the user, not the application.
                                       </p>
                                   </div>
                               </div>
