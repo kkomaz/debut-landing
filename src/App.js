@@ -53,11 +53,7 @@ class App extends Component {
                               <li><a className="nav-link" href="#features">Current Features</a></li>
                               <li><a className="nav-link" href="#faq">FAQ</a></li>
                               <li><a className="nav-link" href="#contact">Contact</a></li>
-                          </ul>
-                          <ul className="header-extra-btn">
-                              <li>
-                                  <a a href="https://debutapp.social" rel="noopener noreferrer" className="btn btn-gradient btn-gradient-reverse">Sign in</a>
-                              </li>
+                              <li><a a href="https://debutapp.social" rel="noopener noreferrer">Sign in</a></li>
                           </ul>
                       </div>
                   </nav>
