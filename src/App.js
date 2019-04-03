@@ -136,12 +136,12 @@ class App extends Component {
                               <div className="single-service wow fadeIn" data-wow-delay=".6s">
                                   <div className="service-icon public-private">
                                     <Icon
-                                      icon="IconWoman"
+                                      icon="IconCouple"
                                       size={42}
                                       color="#518DCA"
-                                    />
+                                      />
                                     <Icon
-                                      icon="IconCouple"
+                                      icon="IconWoman"
                                       size={42}
                                       color="#518DCA"
                                     />
@@ -158,16 +158,6 @@ class App extends Component {
                   </div>
               </div>
               <div id="features" className="standard-section section-gray">
-                  <ul className="wpsuper-xs-iocns">
-                      <li className="wpsuper-icon rellax"><img src="images/bg/icons/1.png" alt="BX Icon" /></li>
-                      <li className="wpsuper-icon rellax"><img src="images/bg/icons/2.png" alt="BX Icon" /></li>
-                      <li className="wpsuper-icon rellax"><img src="images/bg/icons/3.png" alt="BX Icon" /></li>
-                      <li className="wpsuper-icon rellax"><img src="images/bg/icons/4.png" alt="BX Icon" /></li>
-                      <li className="wpsuper-icon rellax"><img src="images/bg/icons/5.png" alt="BX Icon" /></li>
-                      <li className="wpsuper-icon rellax"><img src="images/bg/icons/6.png" alt="BX Icon" /></li>
-                      <li className="wpsuper-icon rellax"><img src="images/bg/icons/7.png" alt="BX Icon" /></li>
-                      <li className="wpsuper-icon rellax"><img src="images/bg/icons/8.png" alt="BX Icon" /></li>
-                  </ul>
                   <div className="container">
                       <div className="row">
                           <div className="col-md-12">
@@ -253,16 +243,6 @@ class App extends Component {
                   </div>
               </div>
               <div id="faq" className="standard-section section-gray faq-section">
-                  <ul className="wpsuper-xs-iocns">
-                      <li className="wpsuper-icon rellax"><img src="images/bg/icons/1.png" alt="BX Icon" /></li>
-                      <li className="wpsuper-icon rellax"><img src="images/bg/icons/2.png" alt="BX Icon" /></li>
-                      <li className="wpsuper-icon rellax"><img src="images/bg/icons/3.png" alt="BX Icon" /></li>
-                      <li className="wpsuper-icon rellax"><img src="images/bg/icons/4.png" alt="BX Icon" /></li>
-                      <li className="wpsuper-icon rellax"><img src="images/bg/icons/5.png" alt="BX Icon" /></li>
-                      <li className="wpsuper-icon rellax"><img src="images/bg/icons/6.png" alt="BX Icon" /></li>
-                      <li className="wpsuper-icon rellax"><img src="images/bg/icons/7.png" alt="BX Icon" /></li>
-                      <li className="wpsuper-icon rellax"><img src="images/bg/icons/8.png" alt="BX Icon" /></li>
-                  </ul>
                   <div className="container">
                       <div className="row">
                           <div className="col-lg-6 d-none d-sm-block d-md-none d-lg-block">
@@ -282,7 +262,7 @@ class App extends Component {
                                           <div className="panel-heading" role="tab" id="headingOne">
                                               <h5 className="panel-title">
                                                   <a data-toggle="collapse" href="#collapseOne" aria-expanded="true"
-                                                     aria-controls="collapseOne"><i className="bi bi-microphone2"></i>
+                                                     aria-controls="collapseOne">
                                                    How is debut different from facebook or twitter?
                                                   </a>
                                               </h5>
@@ -299,8 +279,7 @@ class App extends Component {
                                           <div className="panel-heading" role="tab" id="headingTwo">
                                               <h5 className="panel-title">
                                                   <a className="collapsed" data-toggle="collapse" href="#collapseTwo"
-                                                     aria-expanded="false" aria-controls="collapseTwo"><i
-                                                          className="bi bi-alien-gun"></i>
+                                                     aria-expanded="false" aria-controls="collapseTwo">
                                                         What is Blockstack?
                                                   </a>
                                               </h5>
@@ -316,8 +295,7 @@ class App extends Component {
                                           <div className="panel-heading" role="tab" id="headingThree">
                                               <h5 className="panel-title">
                                                   <a className="collapsed" data-toggle="collapse" href="#collapseThree"
-                                                     aria-expanded="false" aria-controls="collapseThree"><i
-                                                          className="bi bi-anchor"></i>
+                                                     aria-expanded="false" aria-controls="collapseThree">
                                                         What is gaia and how is data "secured"?
                                                   </a>
                                               </h5>
