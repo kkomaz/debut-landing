@@ -6,6 +6,10 @@ import Icon from './components/Icon'
 import identity from './assets/identity.jpg'
 import profile from './assets/profile.png'
 import collab from './assets/collab.jpg'
+import mark1 from './assets/mark_1.png'
+import facebook from './assets/facebook.png'
+import facebook2 from './assets/facebook_2.png'
+import facebook3 from './assets/facebook_3.png'
 import './App.css';
 
 class App extends Component {
@@ -53,7 +57,7 @@ class App extends Component {
                               <li><a className="nav-link" href="#features">Current Features</a></li>
                               <li><a className="nav-link" href="#faq">FAQ</a></li>
                               <li><a className="nav-link" href="#contact">Contact</a></li>
-                              <li><a a href="https://debutapp.social" rel="noopener noreferrer">Sign in</a></li>
+                              <li><a a href="https://debutapp.social/?landing=true" rel="noopener noreferrer">Sign up | Sign in</a></li>
                           </ul>
                       </div>
                   </nav>
@@ -74,7 +78,11 @@ class App extends Component {
                                             New era of social networking
                                           </h2>
                                           <p className="slide-description" data-animation="fadeIn" data-delay="700ms">
-                                            Freely share information amongst friends and family without compromise.  Only YOU as the user have access to your data.
+                                            With current social networks like Facebook and Twitter, your data can be sold without your consent.
+                                            Debut is switching that paradigm and letting the user have sole control of his or her data.
+                                          </p>
+                                          <p className="slide-description" data-animation="fadeIn" data-delay="700ms">
+                                            <strong>Take control of your personal information</strong>
                                           </p>
                                       </div>
                                       <div className="slide-thumbnail-image" data-animation="fadeInUp" data-delay="300ms">
@@ -94,8 +102,92 @@ class App extends Component {
                   </div>
               </div>
           </div>
+          <div class="standard-section section-gray">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-12">
+                          <div class="area-heading text-center">
+                              <h2 class="area-title">Data Breach Examples</h2>
+                              <p>
+                                These articles are just a few examples of how applications like facebook are mishandling your data
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-lg-12">
+                          <div class="interface-slide wow fadeInDown" data-wow-delay=".2s">
+                              <div class="swiper-container interface-slider">
+                                  <div class="swiper-wrapper">
+                                      <div class="swiper-slide">
+                                          <div class="xboo__overlay">
+                                              <img src={mark1} alt="" style={{ height: '400px' }} />
+                                              <a
+                                                class="interface-icon wpsuper-lightbox"
+                                                data-gall="myGallery"
+                                                href="https://www.nytimes.com/2019/04/24/technology/facebook-ftc-fine-privacy.html"
+                                                rel="noopener noreferrer"
+                                                style={{ height: '100%', width: '100%', top: 0, transform: 'inherit' }}
+                                                target="_blank"
+                                              />
+                                              <p style={{ textAlign: 'center' }}>Facebook Expects to Be Fined Up to $5 Billion by F.T.C. Over Privacy Issues</p>
+                                          </div>
+                                      </div>
+                                      <div class="swiper-slide">
+                                          <div class="xboo__overlay">
+                                              <img src={facebook} alt="" style={{ height: '400px' }} />
+                                              <a
+                                                class="interface-icon wpsuper-lightbox"
+                                                data-gall="myGallery"
+                                                href="https://www.wired.com/story/facebook-passwords-plaintext-change-yours/"
+                                                rel="noopener noreferrer"
+                                                style={{ height: '100%', width: '100%', top: 0, transform: 'inherit' }}
+                                                target="_blank"
+                                              />
+                                              <p style={{ textAlign: 'center' }}>FACEBOOK STORED MILLIONS OF PASSWORDS IN PLAINTEXT—CHANGE YOURS NOW</p>
+                                          </div>
+                                      </div>
+                                      <div class="swiper-slide">
+                                          <div class="xboo__overlay">
+                                              <img src={facebook2} alt="" style={{ height: '400px' }} />
+                                              <a
+                                                class="interface-icon wpsuper-lightbox"
+                                                data-gall="myGallery"
+                                                href="https://www.nytimes.com/2019/04/25/technology/facebook-canada-privacy.html"
+                                                rel="noopener noreferrer"
+                                                style={{ height: '100%', width: '100%', top: 0, transform: 'inherit' }}
+                                                target="_blank"
+                                              />
+                                              <p style={{ textAlign: 'center' }}>Canada Says Facebook Broke Privacy Laws With ‘Superficial’ Safeguards</p>
+                                          </div>
+                                      </div>
+                                      <div class="swiper-slide">
+                                          <div class="xboo__overlay">
+                                              <img src={facebook3} alt="" style={{ height: '400px' }} />
+                                              <a
+                                                class="interface-icon wpsuper-lightbox"
+                                                data-gall="myGallery"
+                                                href="https://www.nytimes.com/2019/04/25/technology/facebook-regulation-ftc-fine.html"
+                                                rel="noopener noreferrer"
+                                                style={{ height: '100%', width: '100%', top: 0, transform: 'inherit' }}
+                                                target="_blank"
+                                              />
+                                              <p style={{ textAlign: 'center' }}>Regulators Around the World Are Circling Facebook</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="swiper-pagination"></div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
           <section className="main-content">
               <div id="service" className="service-section">
+                  <div class="area-heading text-center">
+                    <h2 class="area-title">With <span style={{ textTransform: 'lowercase' }}>debut</span></h2>
+                  </div>
                   <div className="container">
                       <div className="row">
                           <div className="col-lg-4 col-md-6">
@@ -271,7 +363,7 @@ class App extends Component {
                                                aria-labelledby="headingOne" data-parent="#accordion">
                                               <div className="panel-body">
                                                 Unlike facebook and twitter, debut gives data control to the user, not the application.  Applications like facebook and twitter
-                                                can sell your information for profit.  With Blockstack authentication, your identity and data is your own.
+                                                can sell your information for profit.  Users can post moments, add comments, and keep the benefits of data ownership.
                                               </div>
                                           </div>
                                       </div>
@@ -371,7 +463,7 @@ class App extends Component {
                                   <h3 className="footer-widget-title">debut</h3>
                                   <div className="footer-widget-content">
                                       <ul className="quick-link">
-                                          <li><a href="https://debutapp.social" rel="noopener noreferrer">Sign In</a></li>
+                                          <li><a href="https://debutapp.social" rel="noopener noreferrer">Sign Up | Sign In</a></li>
                                           <li><a href="#features">Current Features</a></li>
                                           <li><a href="#faq">FAQ</a></li>
                                       </ul>
