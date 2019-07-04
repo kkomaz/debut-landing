@@ -501,7 +501,7 @@ class App extends Component {
                           <div className="col-lg-12">
                               <div className="copy-right-info">
                                 <ul className="social-bookmark left">
-                                    <li><a href="https://github.com/kkomaz/debut" rel="noopener noreferrer" target="_blank"><i className="fa fa-github"></i></a></li>
+                                    <li><a href="https://github.com/kkomaz/debut-server" rel="noopener noreferrer" target="_blank"><i className="fa fa-github"></i></a></li>
                                     <li><a href="https://twitter.com/the_debut_app" rel="noopener noreferrer" target="_blank"><i className="fa fa-twitter"></i></a></li>
                                     <li><a href="https://producthunt.com/posts/debut-2" rel="noopener noreferrer" target="_blank"><i className="fa fa-product-hunt"></i></a></li>
                                 </ul>
